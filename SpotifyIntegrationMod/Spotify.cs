@@ -19,7 +19,6 @@ namespace SpotifyIntegrationMod
         private const int KeyeventfKeyup = 0x2;
 
         //SPOTIFY
-        private static SpotifyLocalAPIConfig config = new SpotifyLocalAPIConfig { Port = 4381, HostUrl = "http://127.0.0.1" };
         private static SpotifyLocalAPI spotify;
         private static StatusResponse status;
         Boolean playing = false;
@@ -27,7 +26,7 @@ namespace SpotifyIntegrationMod
         public Spotify()
         {
             //spotify init
-            spotify = new SpotifyLocalAPI(config);
+            spotify = new SpotifyLocalAPI();
             spotify.Connect();
             status = spotify.GetStatus();
             if (!SpotifyLocalAPI.IsSpotifyRunning())
