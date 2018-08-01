@@ -7,7 +7,7 @@ Para usar este mod necesitas tener instalados:
 Para instalar el mod, descarga el [GTAVSpotifyIntegration.dll](https://github.com/ixtrunai/GTAVSpotifyIntegration/raw/master/SpotifyIntegrationMod.dll) y metélo en la carpeta scripts, dentro de la carpeta del juego.
 Ejemplo de ruta correcta: D:\SteamLibrary\steamapps\common\Grand Theft Auto V\scripts\GTAVSpotifyIntegration.dll
 
-### Recomendaciones de uso:
+### Notas de uso:
 1. Asegúrate de que la reproducción está en pausa antes de entrar en un coche (si no lo haces, conseguirás el efecto contrario, al entrar parará spotify y al salir reproducirá canciones)
 2. Requiere de conexión a internet para funcionar.
 
