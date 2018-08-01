@@ -1,6 +1,6 @@
 # GTAVSpotifyIntegration
 
-Para usar este mod necesitas tener instalados:
+Para usar este mod necesitas tener instalados (instrucciones de instalación en sus páginas):
 1. [ScriptHookV](https://es.gta5-mods.com/tools/script-hook-v)
 2. [ScriptHookV.Net](https://es.gta5-mods.com/tools/scripthookv-net)
 
