@@ -4,7 +4,7 @@ Para usar este mod necesitas tener instalados (instrucciones de instalación en 
 1. [ScriptHookV](https://es.gta5-mods.com/tools/script-hook-v)
 2. [ScriptHookV.Net](https://es.gta5-mods.com/tools/scripthookv-net)
 
-Para instalar el mod, descarga el [GTAVSpotifyIntegration.dll](https://github.com/ixtrunai/GTAVSpotifyIntegration/raw/master/SpotifyIntegrationMod.dll) y metélo en la carpeta scripts, dentro de la carpeta del juego.
+Para instalar el mod, descarga el [GTAVSpotifyIntegration.dll](https://github.com/ixtrunai/GTAVSpotifyIntegration/raw/master/SpotifyIntegrationMod.dll) y metélo en la carpeta scripts, dentro de la carpeta del juego (si este es tu primer mod es probable que no tengas una, en ese caso creala).
 Ejemplo de ruta correcta: D:\SteamLibrary\steamapps\common\Grand Theft Auto V\scripts\GTAVSpotifyIntegration.dll
 
 ### Notas de uso:
