@@ -9,6 +9,7 @@ Ejemplo de ruta correcta: D:\SteamLibrary\steamapps\common\Grand Theft Auto V\sc
 
 ### Recomendaciones de uso:
 1. Asegúrate de que la reproducción está en pausa antes de entrar en un coche (si no lo haces, conseguirás el efecto contrario, al entrar parará spotify y al salir reproducirá canciones)
+2. Requiere de conexión a internet para funcionar.
 
 
 ### Lo que hace el mod:
