@@ -8,6 +8,7 @@ using SpotifyAPI.Local; //Base Namespace
 using SpotifyAPI.Local.Enums; //Enums
 using SpotifyAPI.Local.Models; //Models for the JSON-responses
 
+
 namespace SpotifyIntegrationMod
 {
     public class Spotify
@@ -22,10 +23,11 @@ namespace SpotifyIntegrationMod
         private static SpotifyLocalAPI spotify;
         private static StatusResponse status;
         Boolean playing = false;
-        
+        public static float spotifyVolume;
+
         public Spotify()
         {
-            //spotify init
+            //SPOTIFY INIT
             spotify = new SpotifyLocalAPI();
             spotify.Connect();
             status = spotify.GetStatus();
@@ -40,39 +42,51 @@ namespace SpotifyIntegrationMod
             }
         }
 
-        //siguiente (no usado)
+        //NEXT SONG (method not used yet)
         public void next()
         {
             spotify.Skip();
         }
 
-        //anterior (no usado)
+        //PREVIOUS SONG (method not used yet)
         public void previous()
         {
             spotify.Previous();
         }
 
-        //parar
+        //PAUSE SONG
         public void pause()
         {
             if (playing)
             {
                 playing = false;
-                PressKey(0xb3);
+                PressKey(0xb3); // PLAY/PAUSE MULTIMEDIA KEY
             }
         }
 
-        //comenzar
+        //START SONG
         public void play()
         {
             if (!playing)
             {
                 playing = true;
-                PressKey(0xb3);
+                PressKey(0xb3); // PLAY/PAUSE MULTIMEDIA KEY
             }
         }
 
-        //SIMULAR PULSADO DE TECLA
+        //40% VOLUME ON CALLS OR CONVERS
+        public void setCallVolume()
+        { 
+            spotify.SetSpotifyVolume(40f);
+        }
+
+        //100% VOLUME
+        public void setNormalVolume()
+        {
+            spotify.SetSpotifyVolume(100f);
+        }
+
+        //KEYPRESS SIMULATION
         internal void PressKey(byte keyCode)
         {
             keybd_event(keyCode, 0x45, KeyeventfExtendedkey, 0);
