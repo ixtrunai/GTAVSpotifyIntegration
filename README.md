@@ -25,10 +25,10 @@ No permite cambiar playlists desde el juego.
 No silencia la música de misiones. Si estás en una misión y sale música ambiental, esta no se silencia. Para esto desactiva la música del juego desde el menú de opciones.
 
 ### Librerías utilizadas durante el desarrollo:
-* [ScriptHookV.Net](https://es.gta5-mods.com/tools/scripthookv-net)  requerida
-* [SpotifyAPI-NET](https://github.com/JohnnyCrazy/SpotifyAPI-NET) incluida con el dll del mod, no hace falta descargarla.
+* [ScriptHookV.Net](https://es.gta5-mods.com/tools/scripthookv-net)  (requerida)
+* [SpotifyAPI-NET](https://github.com/JohnnyCrazy/SpotifyAPI-NET) (incluida con el dll del mod, no hace falta descargarla.)
 
 Otras:
-* [NativeUI](https://github.com/Guad/NativeUI/releases)  solo usada para mostrar información durante el desarrollo del mod. No se hace uso de ella en el mod y no es necesario instalarla para que el mod funcione.
+* [NativeUI](https://github.com/Guad/NativeUI/releases): solo usada para mostrar información durante el desarrollo del mod. No se hace uso de ella en el mod y no es necesario instalarla para que el mod funcione.
 
 
